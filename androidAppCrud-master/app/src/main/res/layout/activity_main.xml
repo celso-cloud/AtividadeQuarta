@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/inserirBtn"
+        android:layout_width="282dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="138dp"
+        android:layout_marginBottom="36dp"
+        android:text="Inserir"
+        app:layout_constraintBottom_toTopOf="@+id/listarBtn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/listarBtn"
+        android:layout_width="282dp"
+        android:layout_height="60dp"
+        android:layout_marginBottom="43dp"
+        android:text="Listar"
+        app:layout_constraintBottom_toTopOf="@+id/pesquisarBtn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/inserirBtn" />
+
+    <Button
+        android:id="@+id/pesquisarBtn"
+        android:layout_width="282dp"
+        android:layout_height="60dp"
+        android:layout_marginBottom="206dp"
+        android:text="Pequisar"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/listarBtn" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
